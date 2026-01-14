@@ -1656,46 +1656,7 @@ body.auth-modal-active .footer {
         
         <!-- Content Area -->
         <main class="content-area" id="contentArea">
-            <!-- STATIC PAGES -->
-<div id="about" class="tab-content">
-  <h1>About Us</h1>
-  <p>Science Master is an advanced educational platform created to simplify the learning of Physics and Chemistry for students of all levels.
-Our website provides a powerful collection of formulas, calculators, and interactive tools to help users understand scientific concepts easily.
-We focus on turning complex theories into simple, practical calculations that save time and improve accuracy.
-Science Master is designed for students, teachers, and self-learners who want quick and reliable results.
-The platform includes physics formulas, chemistry calculations, and an interactive periodic table for better exploration.
-We believe that learning science should be engaging, visual, and easy to use.
-Our clean and modern interface ensures a smooth learning experience on both mobile and desktop devices.
-We continuously update our content to keep it relevant and useful for today’s learners.
-User data and privacy are respected, making the platform safe and trustworthy.
-Science Master aims to become a one-stop solution for smart and efficient science learning.</p>
-</div>
 
-<div id="contact" class="tab-content">
-  <h1>Contact Us</h1>
-
-  <p>
-    <i class="fas fa-envelope" style="color:#4361ee; margin-right:8px;"></i>
-    <a href="mailto:sakib24627@gmail.com">Mail</a>
-  </p>
-
-  <p>
-    <i class="fab fa-instagram" style="color:#E1306C; margin-right:8px;"></i>
-    <a href="https://instagram.com/disaster_boy.143" target="_blank">
-      Instagram
-    </a>
-  </p>
-</div>
-
-<div id="privacy" class="tab-content">
-  <h1>Privacy Policy</h1>
-  <p>We respect your privacy. Your data is safe and never shared.</p>
-</div>
-
-<div id="terms" class="tab-content">
-  <h1>Terms of Use</h1>
-  <p>Using this website means you agree to our terms and conditions.</p>
-</div>
 
             <!-- Tabs -->
             <div class="tabs">
@@ -1703,7 +1664,22 @@ Science Master aims to become a one-stop solution for smart and efficient scienc
                 <div class="tab" data-tab="periodic-table">Periodic Table</div>
                 <div class="tab" data-tab="chemical-groups">Chemical Groups</div>
             </div>
-            
+            <!--About Section  -->
+
+  <a href="about.html" class="back-button">
+                <i class="fas fa-arrow-left"></i> About
+            </a>
+
+
+  <a href="contact.html" class="back-button">
+                <i class="fas fa-arrow-left"></i> Contact
+            </a>
+            <a href="privacy.html" class="back-button">
+                <i class="fas fa-arrow-left"></i> Privacy Policy
+            </a>
+            <a href="terms.html" class="back-button">
+                <i class="fas fa-arrow-left"></i> Terms of Use
+            </a>
             <!-- Formulas Tab Content -->
             <div id="formulas-tab" class="tab-content active">
                 <div class="content-header">
@@ -1850,10 +1826,11 @@ Science Master aims to become a one-stop solution for smart and efficient scienc
                 </div>
                 
                 <div class="footer-links">
-                   <a href="#" class="footer-link" onclick="openPage('about')">About</a>
-<a href="#" class="footer-link" onclick="openPage('contact')">Contact</a>
-<a href="#" class="footer-link" onclick="openPage('privacy')">Privacy Policy</a>
-<a href="#" class="footer-link" onclick="openPage('terms')">Terms of Use</a>
+                   <a href="about.html" class="footer-link" onclick="openPage('about')">About</a>
+<a href="contact.html" class="footer-link" onclick="openPage('contact')">Contact</a>
+<a href="privacy.html" class="footer-link" onclick="openPage('privacy')">Privacy Policy</a>
+<a href="terms.html" class="footer-link" onclick="openPage('terms')">Terms of Use</a>
+
 
                 </div>
                 
@@ -8559,5 +8536,6 @@ function openPage(pageId) {
 </body>
 
 </html>
+
 
 
